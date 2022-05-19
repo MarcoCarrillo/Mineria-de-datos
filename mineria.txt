@@ -1,0 +1,48 @@
+--DIMENSION--
+(1000, 11)
+
+--CABECERA--
+first_name      object
+last_name       object
+email           object
+company         object
+car             object
+favorite_app    object
+avatar          object
+active          object
+is_admin        object
+department      object
+gender          object
+dtype: object
+
+--COUNT DE DATOS--
+first_name      1000
+last_name       1000
+email           1000
+company          680
+car              846
+favorite_app     925
+avatar           747
+active           950
+is_admin         108
+department       925
+gender           846
+dtype: int64
+
+--DATOS NULL POR COLUMNA--
+Valores nulos en  <first_name>: 0
+Valores nulos en  <last_name>: 0
+Valores nulos en  <email>: 0
+Valores nulos en  <company>: 320
+Valores nulos en  <car>: 154
+Valores nulos en  <favorite_app>: 75
+Valores nulos en  <avatar>: 253
+Valores nulos en  <active>: 50
+Valores nulos en  <is_admin>: 892
+Valores nulos en  <department>: 75
+Valores nulos en  <gender>: 154
+
+--DATOS DUPLICADOS--
+0
+
+
